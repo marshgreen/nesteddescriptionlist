@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technology Categories</title>
+</head>
+<body>
+
+    <h1>Technology Categories</h1>
+
+    <dl>
+        <dt>Programming Languages</dt>
+        <dd>
+            <dl>
+                <dt>Java</dt>
+                <dd>
+                    <dl>
+                        <dt>Powerful</dt>
+                        <dd>Java is known for its performance and scalability, making it suitable for large applications.</dd>
+                        <dt>Enterprise</dt>
+                        <dd>Widely used in enterprise environments due to its robustness and extensive libraries.</dd>
+                    </dl>
+                </dd>
+
+                <dt>Python</dt>
+                <dd><em>Easy-to-learn</em> syntax and readability make it great for beginners and professionals alike.</dd>
+            </dl>
+        </dd>
+
+        <dt>Databases</dt>
+        <dd>
+            <dl>
+                <dt>MySQL</dt>
+                <dd><u>Open-source</u> relational database management system widely used for web applications.</dd>
+            </dl>
+        </dd>
+    </dl>
+
+    <blockquote>
+        “Talk is cheap. Show me the code.” — Linus Torvalds
+    </blockquote>
+
+</body>
+</html>
