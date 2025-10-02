@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Step 2: Header (copy from previous page) -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Step 3: Main Content -->
+    <main>
+        <h1>Contact Us</h1>
+
+        <!-- Step 4: Form -->
+        <form action="formPost.html">
+            
+            <!-- Step 5: Contact Information -->
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+            </fieldset>
+
+            <br>
+
+            <!-- Step 6: Other Information -->
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <!-- Radio -->
+                <p>Are you a student?</p>
+                <input type="radio" id="studentYes" name="student" value="yes" checked>
+                <label for="studentYes">Yes</label>
+                <input type="radio" id="studentNo" name="student" value="no">
+                <label for="studentNo">No</label>
+                <br><br>
+
+                <!-- Dropdown -->
+                <label for="year">Student Year:</label>
+                <select id="year" name="year">
+                    <option value="freshman">Freshman</option>
+                    <option value="sophomore">Sophomore</option>
+                    <option value="junior">Junior</option>
+                    <option value="senior">Senior</option>
+                </select>
+                <br><br>
+
+                <!-- Range Slider -->
+                <label for="enjoyment">Major Enjoyment (1 = dislike, 5 = love):</label><br>
+                <input type="range" id="enjoyment" name="enjoyment" min="1" max="5">
+                <br><br>
+
+                <!-- Textarea -->
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+                <br><br>
+            </fieldset>
+
+            <!-- Step 7: Submit Button -->
+            <input type="submit" value="Submit Form">
+
+        </form>
+    </main>
+
+    <!-- Step 8: Footer -->
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>

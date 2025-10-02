@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  max-width: 900px; /* make page narrower */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #dbe8b8;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+header .logo {
+  color: hotpink; /* binary eats text pink */
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 70%;
+  padding: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+
+.title h1 {
+  color: hotpink; /* title pink */
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.title .chef {
+  color: #5daeea; /* lighter blue for Chef Roman */
+  font-size: 12px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  flex-basis: 100%;
+  background: #e8f4d5;
+  border: 2px solid #9fe7c0; /* seafoam green border */
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  max-width: 300px; /* make it narrower like screenshot */
+}
+
+.summary div p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  color: hotpink; /* text inside prep box pink */
+}
+
+.ingredients, .directions {
+  flex-grow: 1;
+  flex-basis: 45%;
+  padding: 10px;
+}
+
+.ingredients ul, .directions ol {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ingredients h2, .directions h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 5px;
+}
+
+.related-content {
+  flex-grow: 1;
+  flex-basis: 20%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.related-content h3 {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 200px;
+  margin: 10px 0;
+}
